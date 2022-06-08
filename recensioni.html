@@ -15,6 +15,14 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
         <!--icone fontawesome-->
         <script src="https://kit.fontawesome.com/cc2d50dc26.js" crossorigin="anonymous"></script>
+         <!--Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RJGEFD32J0"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-RJGEFD32J0');
+        </script>
     
       <title>Recensioni libri</title>
     </head>
@@ -45,15 +53,14 @@
                 </div>
             </nav>
 
-            <div class="search">
 
-                <label for="search" class="structural">Search 456bereastreet.com</label>
-                <input type="search" id="search" name="search" class="txt" size="120" placeholder="Cerca sul sito">
-                <input type="submit" class="btn" value="Search">
-                
-            </div>  
 
             <div class="container-fluid">
+                <div class="search">
+                    <label for="search" class="structural">Search 456bereastreet.com</label>
+                    <input type="search" id="search" name="search" class="txt" size="80" placeholder="Cerca sul sito">
+                    <input type="submit" class="btn" value="Search"> 
+                </div>  
                 <div class="row variable-gutters">
                     <div class="col-xs-6 col-sm-3">
                          <a href="iltempoelacqua.html"><img class="cover" src="img/iltempoelacqua.jpg" alt="il tempo e l'acqua"></a>
@@ -62,19 +69,19 @@
                          <p>"Un tentativo commovente di smuovere la coscienze riguardo alla crisi climatica."</p>
                     </div>
                     <div class="col-xs-6 col-sm-3">
-                         <img src="img/luxsonora.jpg" alt="lux sonora">
+                         <img class="cover" src="img/luxsonora.jpg" alt="lux sonora">
                             <p><h2>"Lux sonora"</h2></p>
                             <p><h3>di Enrico Marchianò</h3></p>
                             <p>"Uno studio sull’energia della vibrazione sonora che si trasforma in luce."</p>
                     </div>
                     <div class="col-xs-6 col-sm-3">
-                         <img src="img/laprofeziadicelestino.jpg" alt="la profezia di celestino">
+                         <img class="cover" src="img/laprofeziadicelestino.jpg" alt="la profezia di celestino">
                             <p><h2>"La profezia di Celestino"</h2></p>
                             <p><h3>di James Redfield</h3></p>
                             <p>"Un racconto sulla scoperta di un antico manoscritto, contenente nove chiavi per interpretare l'esistenza."</p>
                     </div>
                     <div class="col-xs-6 col-sm-3">
-                          <img src="img/noncenottechenonvedailgiorno.jpg" alt="Non c'è notte che non veda il giorno">
+                          <img class="cover" src="img/noncenottechenonvedailgiorno.jpg" alt="Non c'è notte che non veda il giorno">
                             <p><h2>"Non c'è notte che non veda il giorno"</h2></p>
                             <p><h3>di Giorgio Nardone</h3></p>
                             <p>"La terapia in tempi brevi per gli attacchi di panico."</p>
@@ -91,7 +98,7 @@
                 </div>
         </header>
 
-        <footer align="center" class="fixed-bottom">
+        <footer align="center">
             <dl align="center">
                 <dt>Creato da</dt>
                     <dd><address><a id="mail" href="mailto:tania.montanaro@studio.unibo.it" target="_blank" data-toggle="popover" title="Scrivi una mail" data-trigger="hover">Tania Montanaro</a></address>
