@@ -19,16 +19,18 @@ footer {height: 15%;
 h1, h2, h3, h4, h5, h6 {font-family: 'Gentium Plus', serif !important;}
 
 /*menu di navigazione*/
+.navbar-brand a {vertical-align: center !important}
 
-.navbar {height: 10em;
-		padding: none;}
+.navbar {height: 7em;
+		padding: none;
+		background color: black;}
 
 .navbar-collapse {background-color: #bf79acbf;
 					opacity: 80%;}
 
 
-#logo {width: 5em;
-		height: 5em;
+#logo {width: 4em;
+		height: 4em;
 		border-radius: 50%;}
 
 
@@ -37,6 +39,7 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Gentium Plus', serif !important;}
 #intro {padding-top: 8em;
 		padding-bottom: 2em;
 		color: black;}
+
 
 /*social*/
 
@@ -64,7 +67,8 @@ a:hover {background-color: #cb97bd;
 
 /*recensioni*/
 
-.container-fluid {margin: none;
+.container-fluid { padding-top: 12%;
+	margin: none;
 				text-align: center;
 				}
 
@@ -85,17 +89,27 @@ a:hover {background-color: #cb97bd;
 		text-align:justify !important;
 		}
 
-.text img {width: 70%;
+.text img {width: 280px;
 	height: auto;}
 
 
 
+.search {width: 15px;
+		height: 15px;
+		}
+
+.kbDoc-banner-support .banner-content-wrapper .banner-search-form button {
+    background: transparent;
+    border: 0;
+    padding-right: 20px;
+    color: #10b3d6;
+    font-size: 20px;}
 
 button {width: 120px; 
-	color: black;
-			border-radius: 15% !important;
-			border: #bf79acbf;
-			background-color: #cb97bd;}
+		color: black;
+		border-radius: 15% !important;
+		border: #bf79acbf;
+		background-color: #cb97bd;}
 
 
 #mail {color: blue;}

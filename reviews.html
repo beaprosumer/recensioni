@@ -23,7 +23,7 @@
         gtag('js', new Date());
         gtag('config', 'G-RJGEFD32J0');
         </script>
-        <title>Work with us</title>
+        <title>Book Reviews</title>
     </head>
     <body>
         <header>
@@ -42,40 +42,53 @@
                         <li class="nav-item">
                         <a class="nav-link" href="about.html"><b>ABOUT</b></a>
                         </li>
-                        
                         <li class="nav-item">
-                        <a class="nav-link" href="reviews.html"><b>BOOK REVIEWS</b></a>
+                        <a class="nav-link active" href="reviews.html"><b>BOOK REVIEWS</b></a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link active" href="#"><b>BE A PROSUMER</b></a>
-                        </li>
+                        <a class="nav-link" href="beaprosumer.html"><b>BE A PROSUMER</b></a>
+                        </li>                        
                      </ul>
                 </div>
             </nav>
-              
-                <div align="center" id="intro"><h2><i>Vuoi far parte anche tu della community? Unisciti a noi, diventa un Prosumer!</i></h2>
+
+                <div class="container-fluid">
+                <!--search-form -->
+                    <div class="input-group rounded">
+                    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                    <span class="input-group-text border-0" id="search-addon">
+                    <i class="fas fa-search"></i>
+                    </span>
+                    </div>     
                 </div>
 
-                <div class="container">
-                    <form action="action_page.php">
-                        <label for="fname">Nome</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Scrivi qui il tuo nome..">
-                        <label for="lname">Cognome</label>
-                        <input type="text" id="lname" name="lastname" placeholder="Scrivi qui il tuo cognome..">
-                        <label for="country">Paese</label>
-                        <select id="country" name="country">
-                        <option value="italia">Italia</option>
-                        <option value="spagna">Spagna</option>
-                        <option value="francia">Francia</option>
-                        <option value="germania">Germania</option>
-                        <option value="altro">altro</option>
-                        </select>
-                        <label for="subject">Messaggio</label>
-                        <textarea id="subject" name="subject" placeholder="Scrivi qualcosa.." style="height:200px"></textarea>
-                        <input type="submit" value="Invia">
-                    </form>
+                <div class="row variable-gutters">
+                    <div class="col-xs-6 col-sm-3">
+                         <a href="iltempoelacqua.html"><img class="cover" src="img/iltempoelacqua.jpg" alt="il tempo e l'acqua"></a>
+                         <p><h2>"Il tempo e l'acqua"</h2></p>
+                         <p><h3>di Andri Snær Magnason</h3></p>
+                         <p>"Un tentativo commovente di smuovere la coscienze riguardo alla crisi climatica."</p>
+                    </div>
+                    <div class="col-xs-6 col-sm-3">
+                         <img class="cover" src="img/luxsonora.jpg" alt="lux sonora">
+                            <p><h2>"Lux sonora"</h2></p>
+                            <p><h3>di Enrico Marchianò</h3></p>
+                            <p>"Uno studio sull’energia della vibrazione sonora che si trasforma in luce."</p>
+                    </div>
+                    <div class="col-xs-6 col-sm-3">
+                         <img class="cover" src="img/laprofeziadicelestino.jpg" alt="la profezia di celestino">
+                            <p><h2>"La profezia di Celestino"</h2></p>
+                            <p><h3>di James Redfield</h3></p>
+                            <p>"Un racconto sulla scoperta di un antico manoscritto, contenente nove chiavi per interpretare l'esistenza."</p>
+                    </div>
+                    <div class="col-xs-6 col-sm-3">
+                          <img class="cover" src="img/noncenottechenonvedailgiorno.jpg" alt="Non c'è notte che non veda il giorno">
+                            <p><h2>"Non c'è notte che non veda il giorno"</h2></p>
+                            <p><h3>di Giorgio Nardone</h3></p>
+                            <p>"La terapia in tempi brevi per gli attacchi di panico."</p>
+                    </div>
                 </div>
-
+            
                 <div align="center" id="icon"> 
                     <a href="https://www.facebook.com/BeProsumer-109116761820836" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
                     <a href="https://www.instagram.com/beprosumer/" target="_blank"><i class="fa-brands fa-instagram-square" ></i></a>
