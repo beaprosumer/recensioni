@@ -21,6 +21,9 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Gentium Plus', serif !important;}
 /*menu di navigazione*/
 .navbar-brand a {vertical-align: center !important}
 
+.navbar-toggler {width: 4em;
+				height: 4em;}
+
 .navbar {height: 7em;
 		padding: none;
 		background color: black;}
