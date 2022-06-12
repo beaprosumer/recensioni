@@ -14,11 +14,15 @@ body {font-family: 'Gentium Plus', serif;
 footer {height: 15%;
 		background-color: #f0ebe6;
 		opacity: 80%;
- 		padding: 5px 0px;
+ 		padding: 1em;
 		color: black;
 		}
 
-h1, h2, h3, h4, h5, h6 {font-family: 'Gentium Plus', serif !important;}
+footer p a {color: #cb97bd;}
+
+h3, h4, h5, h6 {font-family: 'Gentium Plus', serif !important;}
+
+h1, h2 {font-family: 'Roboto', sans-serif;}
 
 p {font-size: 20px;}
 
