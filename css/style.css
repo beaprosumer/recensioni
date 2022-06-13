@@ -90,7 +90,7 @@ a:hover {background-color: #cb97bd;
 
 /*recensioni*/
 
-.container-fluid {padding-top: 12%;
+.container-fluid {padding-top: 10%;
 				  margin: none;
 				  text-align: center;
 				  }
@@ -195,7 +195,7 @@ input[type=submit]:hover {
 }
 
 /*documentazione*/
-.documentazione img {width: 20em;
+.documentazione img {width: 45%;
 					height: auto;
 					border-radius: 10%;}
 
