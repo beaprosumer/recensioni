@@ -22,7 +22,7 @@ footer p a {color: #cb97bd;}
 
 h3, h4, h5, h6 {font-family: 'Gentium Plus', serif !important;}
 
-h1, h2 {font-family: 'Roboto', sans-serif;}
+h1, h2 {font-family: 'Karla', sans-serif;}
 
 p {font-size: 20px;}
 
@@ -193,3 +193,10 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #bf79acbf;
 }
+
+/*documentazione*/
+.documentazione img {width: 25em;
+					height: auto;
+					border-radius: 10%;}
+
+.documentazione {padding: 0em 2em;}
